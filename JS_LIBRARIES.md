@@ -18,7 +18,7 @@ The library provides 3 types of modules:
 
 A **graph** is a combination of at least a **source** and a **sink** with any number of _operator_ modules in between:
 
-![waves-lfo](assets/waves-lfo.jpg)
+![waves-lfo](assets/waves-lfo.png)
 
 Available operators are mostly composed of audio descriptors, filters, and data-flow operators
 
@@ -44,7 +44,7 @@ The library can be used when maximum granularity and parameter controls on the s
 
 _note:__ The library can also be used alongside the **mano-js** machine learning abstractions as a replacement for the `ProcessedSensors` class. This is achieved by feeding the output data of the graph to the mano-js Example.
 
-![lfo-motion](assets/lfo-motion.png)
+![lfo-motion](assets/lfo-motion.jpg)
 
 #### Examples
 
