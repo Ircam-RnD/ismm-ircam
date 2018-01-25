@@ -18,7 +18,7 @@ The library provides 3 types of modules:
 
 A **graph** is a combination of at least a **source** and a **sink** with any number of _operator_ modules in between:
 
-**insert graph**
+![waves-lfo](assets/waves-lfo.jpg)
 
 Available operators are mostly composed of audio descriptors, filters, and data-flow operators
 
@@ -104,5 +104,5 @@ The JSON format aimed at the exchange of training examples, training sets, machi
 
 For now, the machine learning side of the library is based on **xmm-client** and **xmm-server**, which requires the setup of a nodeJS server for the training.
 
-**insert graph**
+![mano-js](assets/mano-js.jpg)
 
