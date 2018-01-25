@@ -22,9 +22,12 @@ A **graph** is a combination of at least a **source** and a **sink** with any nu
 
 Available operators are mostly composed of audio descriptors, filters, and data-flow operators
 
-#### Examples
+#### Some examples
 
-@todo list some examples
+- [VuMeter](https://cdn.rawgit.com/wavesjs/waves-lfo/master/examples/sink-vu-meter-display/index.html)
+- [MovingAverage](https://cdn.rawgit.com/wavesjs/waves-lfo/master/examples/sink-bridge/index.html)
+- [WaveformDisplay](https://cdn.rawgit.com/wavesjs/waves-lfo/master/examples/sink-waveform-display/index.html)
+- [Mosaicing](https://cdn.rawgit.com/wavesjs/waves-lfo/master/examples/mosaicking/index.html)
 
 ### lfo-motion
 
