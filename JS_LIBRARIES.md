@@ -44,7 +44,7 @@ The library can be used when maximum granularity and parameter controls on the s
 
 _note:__ The library can also be used alongside the **mano-js** machine learning abstractions as a replacement for the `ProcessedSensors` class. This is achieved by feeding the output data of the graph to the mano-js Example.
 
-![lfo-motion](assets/lfo-motion.jpg)
+![lfo-motion](assets/lfo-motion.png)
 
 #### Examples
 
