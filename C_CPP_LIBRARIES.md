@@ -5,7 +5,7 @@
 ### PiPo
 
 - sources: https://github.com/Ircam-RnD/pipo
-- documentation: http://recherche.ircam.fr/equipes/temps-reel/mubu/pipo/sdk-doc-v0.1/
+- documentation: https://ircam-rnd.github.io/pipo/
 
 #### Description
 
