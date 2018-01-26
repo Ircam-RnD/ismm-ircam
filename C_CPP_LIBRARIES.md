@@ -1,4 +1,4 @@
-# ISMM - C++ Libraries
+# ISMM - C/C++ Libraries
 
 ## Signal processing
 
@@ -9,7 +9,7 @@
 
 #### Description
 
-PiPo (for Plug In Plug Out / Plugin Interface for Processing Objects) is a C++ library that has been developed by Norbert Schnell, Diemo Schwarz, Riccardo Borghesi et al. in the ISMM team at IRCAM since 2013.
+PiPo (for Plug In Plug Out / Plugin Interface for Processing Objects) is a **C++ library** that has been developed by Norbert Schnell, Diemo Schwarz, Riccardo Borghesi et al. in the ISMM team at IRCAM since 2013.
 It is designed as a modular signal processing plugin API for real-time and offline processing, and is distributed with its own collection of modules, which are mostly based on the [rta](https://github.com/Ircam-RnD/rta-lib) library.
 
 #### SDK
@@ -74,6 +74,12 @@ The PiPoHost base class has to be overridden, no elegant solution was found for 
 - implement merging policies in PiPoMerge
 - think of a way to implement callbacks on individual PiPo operators.
 
+### rta
+
+#### Description
+
+TODO
+
 ## Machine learning
 
 ### XMM
@@ -83,5 +89,5 @@ The PiPoHost base class has to be overridden, no elegant solution was found for 
 
 #### Description
 
-XMM is a portable, cross-platform C++ library that implements Gaussian Mixture Models and Hidden Markov Models for recognition and regression. The XMM library was developed for movement interaction in creative applications and implements an interactive machine learning workflow with fast training and continuous, real-time inference.
+XMM is a portable, cross-platform **C++ library** that implements Gaussian Mixture Models and Hidden Markov Models for recognition and regression. The XMM library was developed for movement interaction in creative applications and implements an interactive machine learning workflow with fast training and continuous, real-time inference.
 It was developed by Jules Françoise during his PhD thesis in the ISMM team at IRCAM.
