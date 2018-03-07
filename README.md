@@ -6,3 +6,4 @@ Libraries overviews:
 
 - [javascript librairies](./JS_LIBRARIES.md)
 - [C/C++ libraries](./C_CPP_LIBRARIES.md)
+- [Max/MSP patch libraries](./Max_LIBRARIES.md)
