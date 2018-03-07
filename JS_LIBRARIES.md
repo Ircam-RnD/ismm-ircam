@@ -1,11 +1,29 @@
 # ISMM - JS Libraries
 
-## Pre-processing
+## Framework
+
+### Soundworks
+
+- sources: [https://github.com/collective-soundworks/soundworks](https://github.com/collective-soundworks/soundworks)
+- documentation: [http://collective-soundworks.github.io/soundworks/index.html](http://collective-soundworks.github.io/soundworks/index.html)
+
+Soundworks is a framework to create collaborative/collective audiovisual experiences where users interact through their mobile devices. The framework is entirely based on web APIs with a Node.js server and provides a set of services to easily setup the infrastructure and the most basic functionalities of an application.
+
+The fundamental motivation behind all design choices of the framework is to allow developers to focus on the implementation of audiovisual rendering and interaction design based on web standards.
+
+A Soundworks application is typically organized in a client part (i.e. running in the web browser of the client devices) and an optional server part (i.e. running in Node.js). The server part of an application allows the connected clients to exchange data and to influence each other's audiovisual rendering. Client-only applications created with the frameworks can be deployed through a simple HTTP server instead of Node.js.
+
+Example applications:
+- application boilerplate: [https://github.com/collective-soundworks/soundworks-template](https://github.com/collective-soundworks/soundworks-template)
+- controlling a set client from a centralized controller: [https://github.com/collective-soundworks/soundworks-soundfield](https://github.com/collective-soundworks/soundworks-soundfield)
+- distributed clock synchronization: [https://github.com/collective-soundworks/soundworks-beats](https://github.com/collective-soundworks/soundworks-beats)
+
+## Pre-processing Libraries
 
 ### waves-lfo
 
-- sources: https://github.com/wavesjs/waves-lfo
-- documentation: http://wavesjs.github.io/waves-lfo/
+- sources: [https://github.com/wavesjs/waves-lfo](https://github.com/wavesjs/waves-lfo)
+- documentation: [http://wavesjs.github.io/waves-lfo/](http://wavesjs.github.io/waves-lfo/)
 
 Lfo provides a graph-based (data-flow) javascript API designed for the processing and analysis of signals and data streams such as audio, motion sensors data and descriptors.
 
@@ -53,7 +71,7 @@ _note:__ The library can also be used alongside the **mano-js** machine learning
 
 @todo
 
-## Machine-learning
+## Machine-learning Libraries
 
 The **xmm-client** and **xmm-node** libraries are based on the original **XMM** library written by Jules Françoise, hosted on github : https://github.com/Ircam-RnD/xmm
 
@@ -65,8 +83,8 @@ The `Phrase` represents a recorded gesture example, the `TrainingSet` represents
 
 ### xmm-client
 
-- sources: https://github.com/Ircam-RnD/xmm-client
-- documentation: https://ircam-rnd.github.io/xmm-client/
+- sources: [https://github.com/Ircam-RnD/xmm-client](https://github.com/Ircam-RnD/xmm-client)
+- documentation: [https://ircam-rnd.github.io/xmm-client/](https://ircam-rnd.github.io/xmm-client/)
 
 **xmm-client** is a client-side JavaScript reimplementation of parts of the original **XMM** library.
 
@@ -74,7 +92,7 @@ The only missing functional part in xmm-client is the possibility to train a mod
 
 ### xmm-node
 
-- sources and documentation : https://github.com/Ircam-RnD/xmm-node
+- sources and documentation: [https://github.com/Ircam-RnD/xmm-node](https://github.com/Ircam-RnD/xmm-node)
 
 **xmm-node** is a native addon for Node.js that wraps the original **XMM** library.
 
@@ -85,14 +103,14 @@ This single class can perform every operation permitted by **XMM**.
 
 ### JSON format specification
 
-- documentation: https://www.doc.gold.ac.uk/eavi/rapidmixapi.com/index.php/documentation/json-documentation/
+- documentation: [https://www.doc.gold.ac.uk/eavi/rapidmixapi.com/index.php/documentation/json-documentation/](https://www.doc.gold.ac.uk/eavi/rapidmixapi.com/index.php/documentation/json-documentation/)
 
 The JSON format aimed at the exchange of training examples, training sets, machine learning configurations, machine learning models, and signal processing blocks between software components of the RapidMix API. cf. **rapid-mix-adapters**
 
 ### rapid-mix-adapters
 
-- source: https://github.com/Ircam-RnD/rapid-mix-adapters
-- documentation: https://ircam-rnd.github.io/rapid-mix-adapters/
+- source: [https://github.com/Ircam-RnD/rapid-mix-adapters](https://github.com/Ircam-RnD/rapid-mix-adapters)
+- documentation: [https://ircam-rnd.github.io/rapid-mix-adapters/](https://ircam-rnd.github.io/rapid-mix-adapters/)
 
 **rapid-mix-adapters** is a collection of translation functions that transform XMM JSON formats into RapidMix JSON formats, and vice versa. It also provides some adapters for RapidLib. It allows to make the RapidMix JSON format specification evolve independently of the rest of the JavaScript API without having to worry too much about introducing breaking changes.
 
@@ -100,8 +118,8 @@ The JSON format aimed at the exchange of training examples, training sets, machi
 
 ### mano-js
 
-- sources: https://github.com/Ircam-RnD/mano-js
-- documentation: https://ircam-rnd.github.io/mano-js/
+- sources: [https://github.com/Ircam-RnD/mano-js](https://github.com/Ircam-RnD/mano-js)
+- documentation: [https://ircam-rnd.github.io/mano-js/](https://ircam-rnd.github.io/mano-js/)
 
 **mano-js** aims at providing an high-level abstraction around all the libraries described above. It consists of four classes that allows to implement interactive machine in a few lines of code. 
 
