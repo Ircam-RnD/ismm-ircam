@@ -4,8 +4,8 @@
 
 ### PiPo
 
-- sources: https://github.com/Ircam-RnD/pipo
-- documentation: https://ircam-rnd.github.io/pipo/
+- sources: https://github.com/ircam-ismm/pipo
+- documentation: https://ircam-ismm.github.io/pipo/
 
 #### Description
 
@@ -14,7 +14,7 @@ It is designed as a modular signal processing plugin API for real-time and offli
 
 #### SDK
 
-The PiPo SDK allows for easy development of new custom modules. It has its own github repository, https://github.com/Ircam-RnD/pipo-sdk, which is distributed as a git submodule of the PiPo library. New modules created with the SDK can directly be used in combination with the existing ones.
+The PiPo SDK allows for easy development of new custom modules. It has its own github repository, https://github.com/ircam-ismm/pipo-sdk, which is distributed as a git submodule of the PiPo library. New modules created with the SDK can directly be used in combination with the existing ones.
 
 #### Host
 
@@ -22,7 +22,7 @@ To use PiPo modules, one needs a PiPo host. A basic one is provided in the SDK a
 
 #### Max/MSP
 
-PiPo lives as Max/MSP externals in the [MuBu](http://forumnet.ircam.fr/fr/produit/mubu/) package. The Max PiPo hosts are the **pipo**, **pipo~** (real-time) and **mubu.process** (offline) objects. The SDK also provides a basic example of how to build a PiPo module for Max.
+PiPo lives as Max/MSP externals in the [MuBu](https://forum.ircam.fr/projects/detail/mubu/) package. The Max PiPo hosts are the **pipo**, **pipo~** (real-time) and **mubu.process** (offline) objects. The SDK also provides a basic example of how to build a PiPo module for Max.
 
 #### Basic PiPo principles
 
@@ -84,8 +84,8 @@ TODO
 
 ### XMM
 
-- sources: https://github.com/Ircam-RnD/xmm
-- documentation: http://ircam-rnd.github.io/xmm/
+- sources: https://github.com/ircam-ismm/xmm
+- documentation: https://ircam-ismm.github.io/xmm/
 
 #### Description
 
